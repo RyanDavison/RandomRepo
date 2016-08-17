@@ -12,8 +12,6 @@
 import requests, webbrowser
 from random import randrange
 
-##def randomNumber:
-
 num = randrange(0, 60000000, 1)
 
 def requestAllRepos(num):
