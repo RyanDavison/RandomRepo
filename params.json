@@ -1,0 +1,6 @@
+{
+  "name": "Randomrepo",
+  "tagline": "Open a random Github repository",
+  "body": "[Random Repo](JAVASCRIPT/random_src.html)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
