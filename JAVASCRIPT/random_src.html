@@ -16,7 +16,6 @@
 
 	function init(){
 	var number = getRandomIntInclusive(0, 60000000);
-	console.log(number);
 
 	var xhr = new XMLHttpRequest();
 	xhr.open('GET', 'https://api.github.com/repositories?since=' + number, true);
@@ -37,7 +36,7 @@
 
 
 	function openRepo (e, xhr){
-		if (xhr.readyState == 4) {
+		if (xhr.readyState == 4 && xhr.status == 200) {
 			var full_name = JSON.parse(xhr.responseText)[0]['full_name'];
 			location.href = 'https://github.com/' + full_name;
 		}
