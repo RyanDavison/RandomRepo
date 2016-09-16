@@ -3,3 +3,4 @@ Open a random Github repository using either the Python script or the html bookm
 
 ##TODO / Bugs
 -When the JavaScript bookmarklet encounters a 404 page it errors out due to an uncaught security error.
+-Add filter for language
